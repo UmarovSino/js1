@@ -54,7 +54,7 @@ EXAMPLE
 let age =18
 console.log(age>18 ? true : false);
 
-## 3.  `Switch case`
+ 3.Switch case
 *EXAMPLE*
 let day = "Monday";
 switch (day) {
@@ -68,7 +68,7 @@ switch (day) {
         console.log("Other day");
 }
 JavaScript Loops
-##```1. Loop for```
+1. Loop for
 EXAMPLE
 
 for (let i=0; i<=5; i++) {
