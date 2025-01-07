@@ -42,12 +42,12 @@ JavaScript Conditional Statements
 1. if, else if, else
 EXAMPLE
 
-let b= 11
+```let b= 11
 if(a>b){
     console.log(a);
 } else {
     console.log(b);
-}
+}```
 2. Ternary Operator (? :)
 EXAMPLE
 
@@ -68,7 +68,7 @@ switch (day) {
         console.log("Other day");
 }
 JavaScript Loops
-1. Loop for
+##```1. Loop for```
 EXAMPLE
 
 for (let i=0; i<=5; i++) {
