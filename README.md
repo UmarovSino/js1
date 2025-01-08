@@ -76,7 +76,7 @@ JavaScript Functions
 # Function Declaration
 EXAMPLE
 
-function SumTwoNum(num1,num2) {
+```function SumTwoNum(num1,num2) {
 
    return num1+num2;
 
@@ -101,3 +101,4 @@ console.log(user1);
 (function(num1, num2) {
     console.log(num1 + num2);
 })(2, 3);
+```
