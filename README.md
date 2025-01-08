@@ -53,28 +53,30 @@ _______________
 ## Loop for
  ### EXAMPLE
 
-for (let i=0; i<=5; i++) {
+```for (let i=0; i<=5; i++) {
     console.log(i);
 }
+```
  ### While Loop
-EXAMPLE
+###EXAMPLE
 
-let i = 0;
+```let i = 0;
 while (i < 5) {
     console.log(i);
     i++;
 }
+```
 ### do while Loop
-EXAMPLE
+###EXAMPLE
 
-let i = 0;
+```let i = 0;
 do {
     console.log(i);
     i++;
-} while (i<=5);
-JavaScript Functions
+} while (i<=5);```
+#JavaScript Functions
 # Function Declaration
-EXAMPLE
+###EXAMPLE
 
 ```function SumTwoNum(num1,num2) {
 
