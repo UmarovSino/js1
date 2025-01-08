@@ -1,80 +1,62 @@
-JavaScript (JS) is a lightweight, interpreted programming language commonly used to create interactive and dynamic content on websites. It's a core technology of web development, alongside HTML and CSS.
 
-Uses of JavaScript:
+<img src="./images.png">
 
-Web Development: Add interactivity to websites (e.g., forms, slideshows, pop-ups).
-Backend Development: Use with Node.js to build server-side applications.
-Mobile and Desktop Apps: Frameworks like React Native and Electron enable app development.
-History of JavaScript
-Timeline
-1995: Brendan Eich created JavaScript in 10 days, initially called Mocha.
-1996: Renamed to JavaScript to attract Java developers, though it is unrelated to Java. - Microsoft copied JavaScript as JScript for Internet Explorer.
-1997: ECMA standardized JavaScript as ECMAScript (ES1).
-2009: ES5 introduced significant updates.
-2015: ES6 was a major update, modernizing the language.
-2016–Present: New ECMAScript versions are released annually (e.g., ES2016, ES2017).
-JavaScript has evolved from a simple scripting language to a powerful tool for building web applications, servers, and more!
+# javaScript
+### lecture2
+______
 
-ECMAScript is the standard or set of rules for scripting languages like JavaScript. JavaScript is a programming language that follows the ECMAScript rules, but it also includes extra features for working with websites and web applications.
+* Condition
+* Loops
+* Function
+_______________
+# if-шартгузорӣ
+    
+3 роҳи сохтани condition мавҷуд аст.
+  * бо роҳи if else if else
+  * switch case
+  * бо роҳи ternary operator
 
-Running JavaScript Code in Three Ways
-Console Tab of Web Browser
-Using Node.js in Terminal
-Using Code Runner Extension in VS Code
-JavaScript Variables and Constants
-Variable (let, var)
-Stores data that can be changed.
-let newer version , var new way of declaring.
-Constant (const)
-Stores data that cannot be changed after initialization.
-Must be initialized during declaration.
-JavaScript Values:
-Primitives: Stored directly in memory. Types: string, number, boolean, null, undefined, symbol, bigint.
+# loop -цыкл
+  цылк ҳам ба монанди дар боло зикркардашуда( дар мавзуи if)  бо се роҳ сохта мешавад
 
-Objects: Stored by reference (not directly in memory). Types: Arrays, Functions, Objects.
+* for
+* while
+* do/while
+  
 
-Types of Conversion in JavaScript
-1. Implicit Conversion
-JavaScript automatically converts values between types during operations when necessary.
-2. Explicit Conversion
-You manually convert values between types using functions like String(), Number(), and Boolean().
-JavaScript Conditional Statements
-1. if, else if, else
-EXAMPLE
+# function-функция
 
-```let b= 11
-if(a>b){
-    console.log(a);
-} else {
-    console.log(b);
-}```
-2. Ternary Operator (? :)
-EXAMPLE
+<img src="Снимок экрана 2025-01-08 140406.png">
 
-let age =18
-console.log(age>18 ? true : false);
+функция хам ба монанди дигархо ба се гурух чудо карда мешавад:
 
- 3.Switch case
-*EXAMPLE*
-let day = "Monday";
-switch (day) {
-    case "Monday":
-        console.log("Start of the week");
-        break;
-    case "Friday":
-        console.log("End of the week");
-        break;
-    default:
-        console.log("Other day");
-}
-JavaScript Loops
-1. Loop for
-EXAMPLE
+# fuction declaration
+
+<img src="./Снимок экрана 2025-01-08 140820.png">
+
+функции declaration функцияи номдор мебошад ба воситаи номе ки гузошта мешавад файрот мекнем.
+
+# fuction expression
+<img src="./Снимок экрана 2025-01-08 141123.png">
+
+  дар навбати худ ба ду гурух чудо мешавад.
+
+* anonym 
+* arrow
+  
+
+  намунаи мисолҳо бо ин ду функсия
+
+  <img src="./Снимок экрана 2025-01-08 141624.png">
+
+ # JavaScript Loops
+## Loop for
+ ### EXAMPLE
 
 for (let i=0; i<=5; i++) {
     console.log(i);
 }
-2. While Loop
+ ### While Loop
 EXAMPLE
 
 let i = 0;
@@ -82,7 +64,7 @@ while (i < 5) {
     console.log(i);
     i++;
 }
-3. do while Loop
+### do while Loop
 EXAMPLE
 
 let i = 0;
@@ -91,7 +73,7 @@ do {
     i++;
 } while (i<=5);
 JavaScript Functions
-1. Function Declaration
+# Function Declaration
 EXAMPLE
 
 function SumTwoNum(num1,num2) {

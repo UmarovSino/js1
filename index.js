@@ -22,4 +22,39 @@
 // console.log(nem);
 // console.log(nem1);
 
-let 
+
+// function checknumber(num){
+    
+// if(num>0)
+// {
+//     return "pisitive";
+// }
+// if(num<0)
+// {
+//     return "negative";
+// }
+// if(num>0)
+// {
+//     return  return "zero";
+// }
+// }
+// console.lol
+
+let numbe=function(num){
+    let cnt=1;
+    for(let i=cnt; i<=num; i++)
+    {
+cnt*=i;
+    }
+    return cnt;
+}
+console.log(number(6));
+let number=(num)=>{
+    let cnt=0;
+    for(let i=1; i<=num; i++)
+    {
+cnt+=i;
+    }
+    return cnt;
+}
+console.log(number(7));
