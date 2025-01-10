@@ -24,7 +24,7 @@
 
 
 // function checknumber(num){
-    
+
 // if(num>0)
 // {
 //     return "pisitive";
@@ -40,21 +40,122 @@
 // }
 // console.lol
 
-let numbe=function(num){
-    let cnt=1;
-    for(let i=cnt; i<=num; i++)
-    {
-cnt*=i;
-    }
-    return cnt;
-}
-console.log(number(6));
-let number=(num)=>{
-    let cnt=0;
-    for(let i=1; i<=num; i++)
-    {
-cnt+=i;
-    }
-    return cnt;
-}
-console.log(number(7));
+// let numbe=function(num){
+//     let cnt=1;
+//     for(let i=cnt; i<=num; i++)
+//     {
+// cnt*=i;
+//     }
+//     return cnt;
+// }
+// console.log(number(6));
+// let number=(num)=>{
+//     let cnt=0;
+//     for(let i=1; i<=num; i++)
+//     {
+// cnt+=i;
+//     }
+//     return cnt;
+// }
+// console.log(number(7));
+// function number(a){
+
+//     for(let i=1; i<=10; i++)
+//     {
+//        n=number*i+",";
+//     }
+//     return n;
+// }
+// console.log(5);
+//MainFunction
+
+///високостним
+// function MainFunction(n)
+// {
+//    if(n%4==0 && n%100!=0 || n%400==0)
+//    {
+//       return true;
+//    }
+//    else
+//    {
+//       return false;
+//    }
+// }
+// function MainFunction(a)
+// {
+//    return (a*a)*Math.PI;
+// }
+// console.log(MainFunction);
+// function MainFunction(num)
+// {
+
+//    let sum=0;
+//    for(let i=num;i>0;i/=10)
+//    {
+//     sum=i%10;
+//     let m=sum+sum;
+
+//    }
+//    return sum;
+// }
+// console.log(415);
+//MainFunction
+// function MainFunction(num)
+// {
+//    let cnt=1;
+//    for (let i=0; i<=10; i++)
+//    {
+// cnt+=num*i;
+//    }
+//    return cnt;
+// }
+// console.log(10)
+// function MainFunction(num) {
+//     for (let i = 1; i <= 10; i++) {
+//         i
+//     }
+// }
+//MainFunction
+// function MainFunction(num)
+// {
+//    return Math.round(num*num*3.14)
+// }
+// console.log(MainFunction(8));
+// function MainFunction(num, num1) {
+//     let a = (num1 * num) / num;
+//     let b = (num * num) / num;
+//     return a+"\n"+b;
+// }
+// console.log(MainFunction(5, 7));
+// let num=null;
+// num=9
+// let res=num-Math.abs(num%2)+2;
+// console.log(res);
+
+
+//     let a=num/1000%10;
+//    let n=num/100%10;
+//    let n1=num/10%10;
+//    let n2=num%10;
+//    let zarb=(n2*1000)+(n1*100)+(n*10)+a;
+// console.log(zarb(7227));
+
+
+
+////////
+// hometask4
+// //MainFunction
+// function MainFunction(num)
+// {
+//    if(num>0)
+//    {
+//       return num-2;
+//    }
+//    else if(num<0)
+//    {
+//       return num+1;
+//    }
+//    else{
+//       return num+10;
+//    }
+// }
