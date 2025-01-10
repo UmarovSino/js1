@@ -53,30 +53,32 @@ _______________
 ## Loop for
  ### EXAMPLE
 
-for (let i=0; i<=5; i++) {
+```for (let i=0; i<=5; i++) {
     console.log(i);
 }
+```
  ### While Loop
-EXAMPLE
+###EXAMPLE
 
-let i = 0;
+```let i = 0;
 while (i < 5) {
     console.log(i);
     i++;
 }
+```
 ### do while Loop
-EXAMPLE
+###EXAMPLE
 
-let i = 0;
+```let i = 0;
 do {
     console.log(i);
     i++;
-} while (i<=5);
-JavaScript Functions
+} while (i<=5);```
+#JavaScript Functions
 # Function Declaration
-EXAMPLE
+###EXAMPLE
 
-function SumTwoNum(num1,num2) {
+```function SumTwoNum(num1,num2) {
 
    return num1+num2;
 
@@ -101,6 +103,7 @@ console.log(user1);
 (function(num1, num2) {
     console.log(num1 + num2);
 })(2, 3);
+<<<<<<< HEAD
 
 
 
@@ -147,3 +150,6 @@ TDZ: Ин истилоҳ барои тавсифи ҳолатест, ки дар
    * pi; // => 3.14 (Дуруст ва коршоям)
   
 <img src="./Снимок экрана 2025-01-10 143558.png">
+=======
+```
+>>>>>>> a910e3f824cb0e464a13402de720ec3376c312c2
