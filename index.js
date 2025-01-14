@@ -158,4 +158,109 @@
 //    else{
 //       return num+10;
 //    }
+// }\
+//MainFunction
+// function MainFunction(num)
+// {
+//    if(num>0)
+//    {
+//       return num-2;
+//    }
+//    if(num<0)
+//    {
+//       return num+1;
+//    }
+//    else{
+//       return num+10;
+//    }
 // }
+
+// function ispal(num)
+// {
+//     return ispal(num) && isprime(num)
+
+// }
+///idpallindromdromandprime
+// function ispal(num)
+// {
+//     let str="";
+//     for(let i=num; i>0;i=Math.floor(i/10))
+//     {
+//         str+=i%10;
+//     }
+//     return num==str;
+// }
+// function isprime(number)
+// {
+//     for(let i=2;i<number;i++){
+
+//     if(number%i==0) {
+//         return "false"
+//     }
+//     }
+//     return true;
+// }
+// console.log(ispal(130));
+//pot
+// function pot(num,num1) {
+//     let sum = "";
+//     for(let i=num; i<=num1; i++){
+//       if(i==num1){
+//          sum+=i
+//       }
+//       else{
+//           sum += i + ","
+//       }
+      
+//     }
+//     return sum;
+// }
+//MainFunction
+// function MainFunction(num)
+// {
+//    let number=num*6;
+//    return number;
+// }
+// console.log(MainFunction(1));
+
+//MainFunction
+//MainFunction/
+// function MainFunction(num)
+// {
+//    let sum="";
+//    for(let i=num;i>0;i=Math.floor(i/10))
+//    {
+//    if(i%10>i)
+//     return "The largest digit in "+num+" is "+ i%10;
+//    }
+//    }
+   
+
+// console.log(MainFunction(123));
+
+// function MainFunction(num)
+// {
+//    let sum=0;
+ 
+//    for(let i=num;i>0;i=Math.floor(i/10))
+// sum+=i%10;
+//    return sum;
+// }
+// console.log(MainFunction(111));
+// function MainFunction(num)
+// {
+   
+// if(num==0) return 1;
+// return num%10*MainFunction(Math.floor(num/10))
+// }
+// console.log(MainFunction(111));
+function MainFunction(num)
+{
+    let sum=0;
+    for(let i=0;i<=num.length();i++)
+    {
+        
+    }
+}
+
+
