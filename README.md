@@ -213,3 +213,26 @@ function MainFunction(num)
 
 <video src="https://www.youtube.com/watch?v=NXNf9aYTCZ0"></video>
 
+
+#  lecture 6
+
+
+<img src="Снимок экрана 2025-01-22 181114.png">
+
+# what is array in javascript?
+<img src="Снимок экрана 2025-01-23 170011.png">
+
+#### An array in JavaScript is a type of global object used to store data. Arrays can store multiple values in a single variable, which can condense and organize our code.
+
+#### Массив дар JavaScript як намуди объекти глобалӣ мебошад, ки барои нигоҳ доштани маълумот истифода мешавад. Массивҳо метавонанд арзишҳои сершуморро дар як тағирёбанда нигоҳ доранд, ки метавонанд коди моро конденсатсия ва ташкил кунанд.
+
+<img src="eeee.png">
+### методхои массыв да расим боло оварда шудаанд ки хар як ки он вазифахои худро ичро мекунанд
+
+<img src="Снимок экрана 2025-01-23 170500.png">
+
+### механизмхои  js 
+
+  * destructuring assigment
+* Spread syntax
+* Rest parameters
