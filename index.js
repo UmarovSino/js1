@@ -211,7 +211,7 @@
 //       else{
 //           sum += i + ","
 //       }
-      
+
 //     }
 //     return sum;
 // }
@@ -234,14 +234,14 @@
 //     return "The largest digit in "+num+" is "+ i%10;
 //    }
 //    }
-   
+
 
 // console.log(MainFunction(123));
 
 // function MainFunction(num)
 // {
 //    let sum=0;
- 
+
 //    for(let i=num;i>0;i=Math.floor(i/10))
 // sum+=i%10;
 //    return sum;
@@ -249,7 +249,7 @@
 // console.log(MainFunction(111));
 // function MainFunction(num)
 // {
-   
+
 // if(num==0) return 1;
 // return num%10*MainFunction(Math.floor(num/10))
 // }
@@ -259,7 +259,7 @@
 //     let sum=0;
 //     for(let i=0;i<=num.length();i++)
 //     {
-        
+
 //     }
 // }
 //MainFunction
@@ -454,7 +454,7 @@
 //         {
 //             return i;
 //         }
-       
+
 //     }
 //     return -1;
 // }
@@ -477,14 +477,14 @@
 ///task3
 
 
- 
+
 //  function MainFunction(num)
 //  {
 //     return num.join()===num.toReversed().join();
-    
+
 //  }
 //  console.log(MainFunction([1,2,3,2,1]));
- ///task8
+///task8
 // function MainFunction(num)
 // {
 //     let sum=0;
@@ -637,3 +637,306 @@
 
 // console.log(MainFunction([1, 2, 3], [4, 5, 6])); 
 //task10
+
+// function MainFunction(num)
+// {
+//     return  num.map((el) => el.length
+//     )
+
+// }
+// console.log(MainFunction(["hello", "world"]));
+// function MainFunction(arr)
+// {
+//     return arr.filter((el) => el%2==0);
+
+// }
+// console.log(MainFunction([1,2,3,4,5,6,7,8,9,10]));
+
+
+
+
+///classtask
+///task3
+// function MainFunction(arr) {
+//     return arr.reduce((acc, num) => acc * num, 1);
+// }
+
+// console.log(MainFunction([7, 13, 2, 6, 4]));
+///task2
+
+// function MainFunction(arr) {
+//     return arr.reduce(
+//         (acc, num) => {
+//             if (num % 2 === 0) {
+//                 acc.juft += num;
+//             } else {
+//                 acc.toq += num;
+//             }
+//             return acc;
+//         },
+//         { juft:0, toq:0 }
+//     );
+// }
+
+// console.log(MainFunction([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])); 
+
+// function MainFunction (arr)
+// {
+//     return arr.toSorted((a,b)=>(a-b));
+// }
+// console.log(MainFunction([1,4,6,3,12,6,7]));
+
+// function factorial(num) {
+//     if (num <= 1) return 1;
+//     return num * factorial(num - 1);
+// }
+
+// function factorialArray(arr, callback) {
+//     return arr.map(callback);
+// }
+
+// console.log(factorialArray([1, 2, 3, 4, 5], factorial)); 
+
+// function letterIndexes(str) {
+//     return str.toLowerCase().split('').map(char => {
+//         if (char >= 'a' && char <= 'z') {
+//             return char.charCodeAt(0) - 96;
+//         }
+//         return char;
+//     });
+// }
+
+// console.log(letterIndexes("hello"));
+// function squareElements(arr) {
+//     return arr.map(num => num * num);
+// }
+
+// console.log(squareElements([1, 2, 3, 4, 5])); 
+// function sortDescending(arr) {
+//     return arr.sort((a, b) => b - a);
+// }
+
+// console.log(sortDescending([5, 2, 9, 1, 5, 6])); 
+// function findMinValue(arr) {
+//     return Math.min(...arr);
+// }
+
+// console.log(findMinValue([5, 2, 9, 1, 5, 6])); 
+
+// function Mainfunction(arr) {
+//     let sum = arr.reduce((acc, num) => acc + num, 0);
+//     return sum / arr.length;
+// }
+
+// console.log(Mainfunction([1, 2, 3, 4, 5])); 
+// function filterNegativeNumbers(arr) {
+//     return arr.filter(num => num < 0);
+// }
+
+// console.log(filterNegativeNumbers([1, -2, 3, -4, 5, -6])); 
+// function MainFunction(arr) {
+//     let maxIndex = 0;
+//     for (let i = 1; i < arr.length; i++) {
+//         if (arr[i] > arr[maxIndex]) {
+//             maxIndex = i;
+//         }
+//     }
+//     return maxIndex;
+// }
+
+// console.log(MainFunction([1, 3, 7, 1, 4, 7, 2])); 
+///task1
+// function sumOfCubes(arr) {
+//     return arr.reduce((acc, el) => acc + Math.pow(el, 3), 0);
+// }
+// console.log(sumOfCubes([1, 2, 3])); 
+///task2 
+// function MainFunction(num)
+// {
+//     return num.every(num=> num);
+// }
+// console.log(MainFunction([true,true,true,true,true]));
+
+// function MainFunction(arr) {
+//     if (arr.length === 0) return 0;
+//     let lastEl = arr[arr.length - 1];
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i += 2) {
+//         sum += arr[i];
+//     }
+//     return sum * lastEl;
+// }
+
+// console.log(MainFunction([1, 3, 3, 1, 10])); 
+// function findMinMax(arr) {
+//     let min = Math.min(...arr);
+//     let max = Math.max(...arr);
+//     return [min, max];
+// }
+
+// console.log(findMinMax([1, 2, 3, 4, 5])); // [1, 5]
+// function MainFunction(arr1, arr2) {
+//     return Math.min(...arr1) > Math.min(...arr2) && Math.max(...arr1) < Math.max(...arr2);
+// }
+
+// console.log(canNest([1, 2, 3], [0, 4])); // true
+// console.log(canNest([1, 2, 3], [2, 4])); // false
+
+// function removeStrings(arr) {
+//     return arr.filter(item => typeof item === 'number');
+// }
+
+// console.log(removeStrings([1, 'hello', 2, 'world', 3, 'foo', 4, 'bar'])); // [1, 2, 3, 4]
+// function sortStringsByLength(arr) {
+//     return arr.sort((a, b) => a.length - b.length);
+// }
+
+// console.log(sortStringsByLength(["apple", "banana", "kiwi", "cherry", "mango"])); // ["kiwi", "mango", "apple", "cherry", "banana"]
+// function sumOfAbsoluteValues(arr) {
+//     return arr.reduce((acc, num) => acc + Math.abs(num), 0);
+// }
+
+// console.log(sumOfAbsoluteValues([1, -2, 3, -4, 5])); // 15
+// function formatPhoneNumber(numbers, callback) {
+//     if (numbers.length !== 10) {
+//         throw new Error("Array must contain exactly 10 numbers.");
+//     }
+//     let phoneNumber = "(";
+//     for (let i = 0; i < numbers.length; i++) {
+//         if (i === 3) phoneNumber += ") ";
+//         if (i === 6) phoneNumber += "-";
+//         phoneNumber += numbers[i];
+//     }
+//     callback(phoneNumber);
+// }
+
+// formatPhoneNumber([5, 5, 5, 5, 5, 5, 5, 5, 5, 5], function(result) {
+//     console.log(result); // (555) 555-5555
+// }
+
+// console.log(formatPhoneNumber([5, 5, 5, 5, 5, 5, 5, 5, 5, 5])); // (555) 555-5555
+// function formatPhoneNumber(numbers, callback) {
+//     if (numbers.length !== 10) {
+//         throw new Error("Array must contain exactly 10 numbers.");
+//     }
+//     let phoneNumber = "(";
+//     for (let i = 0; i < numbers.length; i++) {
+//         if (i === 3) phoneNumber += ") ";
+//         if (i === 6) phoneNumber += "-";
+//         phoneNumber += numbers[i];
+//     }
+//     callback(phoneNumber);
+// }
+
+// formatPhoneNumber([5, 5, 5, 5, 5, 5, 5, 5, 5, 5], function(result) {
+//     console.log(result); // (555) 555-5555
+// });
+// function findFirstAndLastIndex(word, char) {
+//     let firstIndex = word.indexOf(char);
+//     let lastIndex = word.lastIndexOf(char);
+//     return { firstIndex, lastIndex };
+// }
+
+// console.log(findFirstAndLastIndex("javascript", "a")); // { firstIndex: 1, lastIndex: 3 }
+// console.log(findFirstAndLastIndex("hello", "l")); // { firstIndex: 2, lastIndex: 3 }
+// function totalResistance(resistances) {
+//     return resistances.reduce((total, resistance) => total + resistance, 0);
+// }
+
+// console.log(totalResistance([1, 2, 3, 4])); // 10
+// console.log(totalResistance([10, 20, 30])); // 60
+
+
+// function countTrueValues(arr) {
+//     return arr.filter(value => value === true).length;
+// }
+
+// console.log(countTrueValues([true, false, true, true, false])); // 3
+
+// function compact(array) {
+//     return array.filter(Boolean);
+// }
+
+// console.log(compact([0, 1, false, 2, '', 3, null, undefined, NaN, 4])); // [1, 2, 3, 4]
+// function arrayOfMultiples(num, length) {
+//     let result = [];
+//     for (let i = 1; i <= length; i++) {
+//         result.push(num * i);
+//     }
+//     return result;
+// }
+
+// console.log(arrayOfMultiples(7, 5)); // [7, 14, 21, 28, 35]
+
+
+
+
+
+// let car = {
+//     brand: "toyota",
+//     model: "camry",
+//     year: 2020,
+// //     color: "white",
+// //     price: 30000,
+// //     scores: [5, 4, 3, 5, 5],
+// //     getinfo: function () {
+// //         let scores=car.scores.reduce((a,b) => a+b);
+// //         return `carbrend ${car.brand} , carmodel ${car.model} , thisyear ${car.year} , thiscolor ${car.color} , thisprice ${car.price} ,thisscores ${scores}`;
+// //     }
+// // }
+// // car.city="england";
+// // delete car.getinfo;
+// // console.log(car);
+// // for (const key in car) {
+// //   console.log(key,car[key]);
+// // }
+
+
+// // let thisname={
+// //     name:"Sino",
+// //     age:20,
+// //     city:"Dushanbe" ,
+// //     scores:[5,5,5,5,5],
+// //     getinfo:function(){
+
+// // let jam=thisname.scores.reduce((a,b)=>a+b);
+// //         return `name ${thisname.name} age ${thisname.age} city ${thisname.city} scores ${jam}`;
+// //     }
+// // }
+
+// // console.log(thisname.getinfo());
+
+// // Function to find the sum of an array using reduce
+// function sumArray(arr) {
+//     return arr.reduce((acc, num) => acc + num, 0);
+// }
+// console.log(sumArray([1, 2, 3, 4, 5])); // 15
+
+// // Function to find the product of an array using reduce
+// function productArray(arr) {
+//     return arr.reduce((acc, num) => acc * num, 1);
+// }
+// console.log(productArray([1, 2, 3, 4, 5])); // 120
+
+// // Function to find the maximum value in an array using reduce
+// function maxArray(arr) {
+//     return arr.reduce((max, num) => (num > max ? num : max), arr[0]);
+// }
+// console.log(maxArray([1, 2, 3, 4, 5])); // 5
+
+// // Function to find the minimum value in an array using reduce
+// function minArray(arr) {
+//     return arr.reduce((min, num) => (num < min ? num : min), arr[0]);
+// }
+// console.log(minArray([1, 2, 3, 4, 5])); // 1
+
+// // Function to count occurrences of a value in an array using reduce
+// function countOccurrences(arr, value) {
+//     return arr.reduce((count, num) => (num === value ? count + 1 : count), 0);
+// }
+// console.log(countOccurrences([1, 2, 3, 4, 5, 3, 3], 3)); // 3
+
+// function MainFunction(num){
+// return num.reduce((acc,num)=>acc+num,0)
+// }
+// console.log(MainFunction([1,2,3,4,5,6,7,8,9,10]));
